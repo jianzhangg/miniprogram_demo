@@ -1,0 +1,4 @@
+@import './assets.wxss';
+.container{
+  color: red;
+}

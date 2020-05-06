@@ -1,0 +1,58 @@
+
+<!-- wxml 基本使用 -->
+<view class="className" data-name="A">
+	Hello,world!
+	<view>
+		Hello,China!
+	</view>
+</view>
+
+<!-- 数据绑定 -->
+<view>
+	<text>{{message}}</text>
+</view>
+
+<view>
+	<text data-name="{{theName}}">Jack</text>
+</view>
+
+<view hidden="{{flag ? true : false}}">
+	Hidden
+</view>
+
+<!-- 列表渲染 -->
+<view>
+	<block wx:for="{{items}}" wx:for-item="item" wx:key="index">
+		<view>{{index}}：{{item.name}}</view>
+	</block>
+</view>
+
+<!-- 条件渲染 -->
+<view>今天吃什么</view>
+<view wx:if="{{condition === 1}}">
+	{{condition}}：饺子
+</view>
+<view wx:elif="{{condition === 2}}">
+	{{condition}}：米饭
+</view>
+<view wx:else>
+	{{condition}}：面食
+</view>
+
+<!-- 模板引用 -->
+<template name="tempItem">
+	<view>
+		<view>收件人：{{name}}</view>
+		<view>联系方式：{{phone}}</view>
+		<view>地址：{{address}}</view>
+	</view>
+</template>
+
+<template is="tempItem" data="{{...item}}" />
+
+<!-- 只有一层作用域，防止死循环 -->
+<import src="./templatea.wxml" />
+<template is="a" />
+
+<include src="../templateb.wxml" />
+<template is="b" />

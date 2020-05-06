@@ -1,0 +1,33 @@
+<!-- 引入外联样式 -->
+<view class="container">
+	Hello,world!
+</view>
+
+<view style="width:500rpx;height:30px;background-color:{{colorValue}};">
+	Hello,world!
+</view>
+
+<!-- wxs -->
+<wxs module="m1">
+	module.exports = {
+		message: 'this is m1'
+	}
+</wxs>
+<view>{{m1.message}}</view>
+
+<wxs src="./m2.wxs" module="m2" />
+<view>{{m2.message}}</view>
+
+<wxs module="m3">
+var v = 1;
+module.exports.value = v;
+// 单行注释
+/* 多行注释
+v += 1;
+*/
+console.log(v);
+/* 结尾注释
+var d = 3;
+console.log(d);
+</wxs>
+<view>{{m3.value}}</view>
