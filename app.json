@@ -1,0 +1,7 @@
+{
+  "pages":[
+    "pages/wxss_demo/wxss_demo",
+    "pages/helloworld/helloworld",
+    "pages/wxml_demo/wxml_demo"
+  ]
+}

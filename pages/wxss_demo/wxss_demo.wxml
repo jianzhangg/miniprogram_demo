@@ -31,3 +31,19 @@ var d = 3;
 console.log(d);
 </wxs>
 <view>{{m3.value}}</view>
+
+<view>
+	<view class="btn" bindtap="clickMe">
+		点击我
+	</view>
+</view>
+
+<view class="container-A" bindtap="clickA" capture-bind:tap="captureClickA">
+	container-A
+	<view class="container-B" bindtap="clickB" capture-bind:tap="captureClickB">
+		container-B
+		<view class="container-C" bindtap="clickC" capture-bind:tap="captureClickC"> 
+			container-C
+		</view>
+	</view>
+</view>
