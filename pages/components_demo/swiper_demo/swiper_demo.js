@@ -21,6 +21,7 @@ Page({
     },
     intervalChange: function (e) {
         console.log(`调整自动播放间隔时长为：${e.detail.value}ms`);
+        console.log(`autoplay：${this.data.autoplay}`);
         this.setData({
             interval: e.detail.value
         })
