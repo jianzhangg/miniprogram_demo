@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/components_demo/cover_demo/cover_demo",
     "pages/components_demo/movable_view_demo/movable_view_demo",
     "pages/components_demo/swiper_demo/swiper_demo",
     "pages/components_demo/scroll_view_demo/scroll_view_demo",
