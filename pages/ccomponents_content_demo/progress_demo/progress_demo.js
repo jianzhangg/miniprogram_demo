@@ -11,7 +11,8 @@ Page({
                     percentValue: value < 100 ? value + 10 : value
                 });
                 timer()
-            }, 2000)
+            }, 1000);
         }
+        timer();
     }
 })
