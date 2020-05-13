@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/ccomponents_content_demo/progress_demo/progress_demo",
     "pages/ccomponents_content_demo/rich_text_demo/rich_text_demo",
     "pages/ccomponents_content_demo/text_demo/test_demo",
     "pages/ccomponents_content_demo/icon_demo/icon_demo",
