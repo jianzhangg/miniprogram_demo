@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/components_demo/cover_demo/cover_demo",
-    "pages/components_demo/movable_view_demo/movable_view_demo",
-    "pages/components_demo/swiper_demo/swiper_demo",
-    "pages/components_demo/scroll_view_demo/scroll_view_demo",
-    "pages/components_demo/view_demo/view_demo",
+    "pages/components_content_demo/cover_demo/cover_demo",
+    "pages/components_content_demo/movable_view_demo/movable_view_demo",
+    "pages/components_content_demo/swiper_demo/swiper_demo",
+    "pages/components_content_demo/scroll_view_demo/scroll_view_demo",
+    "pages/components_content_demo/view_demo/view_demo",
     "pages/wxss_demo/wxss_demo",
     "pages/helloworld/helloworld",
     "pages/wxml_demo/wxml_demo"
