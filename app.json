@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/ccomponents_content_demo/icon_demo/icon_demo",
     "pages/components_canvas_demo/cover_demo/cover_demo",
     "pages/components_canvas_demo/movable_view_demo/movable_view_demo",
     "pages/components_canvas_demo/swiper_demo/swiper_demo",
@@ -9,5 +10,5 @@
     "pages/helloworld/helloworld",
     "pages/wxml_demo/wxml_demo"
   ],
-  "sitemapLocation": "sitemap80.json"
+  "sitemapLocation": "sitemap.json"
 }
