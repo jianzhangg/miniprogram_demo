@@ -22,8 +22,9 @@ Page({
             }]
         }]
     },
-    tap() {
+    tap(e) {
         console.log('tap')
+        console.log(e)
     },
     touchstart() {
         console.log('touchstart')

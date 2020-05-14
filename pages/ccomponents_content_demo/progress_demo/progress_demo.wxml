@@ -22,5 +22,5 @@
     <progress percent="{{percentValue}}"
               show-info
               active
-              active-mode="backwards"/>
+              active-mode="forwards"/>
 </view>
