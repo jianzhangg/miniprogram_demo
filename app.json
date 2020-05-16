@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/components_form_demo/form_demo/form_demo",
     "pages/components_form_demo/checkbox_demo/checkbox_demo",
     "pages/components_form_demo/button_demo/button_demo",
     "pages/ccomponents_content_demo/progress_demo/progress_demo",
